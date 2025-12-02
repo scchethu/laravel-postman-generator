@@ -3,8 +3,8 @@
 namespace Scchethu\PostmanGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use Scchethu\PostmanGenerator\Commands\GeneratePostmanCommand;
-use Scchethu\PostmanGenerator\Console\GeneratePostmanCollection;
+use Scchethu\PostmanGenerator\Commands\GeneratePostmanCollection;
+
 
 class PostmanGeneratorServiceProvider extends ServiceProvider
 {
