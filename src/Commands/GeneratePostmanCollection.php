@@ -1,6 +1,6 @@
 <?php
 
-namespace Scchethu\PostmanGenerator\Console;
+namespace Scchethu\PostmanGenerator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Route;
