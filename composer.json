@@ -1,0 +1,19 @@
+{
+  "name": "scchethu/laravel-postman-generator",
+  "description": "Generate Postman collection from Laravel routes",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Scchethu\\PostmanGenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Scchethu\\PostmanGenerator\\PostmanGeneratorServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
