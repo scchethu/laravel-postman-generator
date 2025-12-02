@@ -4,6 +4,7 @@ namespace Scchethu\PostmanGenerator;
 
 use Illuminate\Support\ServiceProvider;
 use Scchethu\PostmanGenerator\Commands\GeneratePostmanCommand;
+use Scchethu\PostmanGenerator\Console\GeneratePostmanCollection;
 
 class PostmanGeneratorServiceProvider extends ServiceProvider
 {
@@ -20,7 +21,7 @@ class PostmanGeneratorServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                GeneratePostmanCommand::class,
+                GeneratePostmanCollection::class,
             ]);
         }
     }
